@@ -1,0 +1,116 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "builtin",
+        "source": "cachyos",
+        "color": {
+            "1": "1;31",
+            "2": "1;33",
+            "3": "1;32",
+            "4": "1;36",
+            "5": "1;34",
+            "6": "1;35",
+            "7": "1;91",
+            "8": "1;93",
+            "9": "1;96"
+        },
+        "padding": {
+            "top": 2,
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " • "
+    },
+    "modules": [
+        "break",
+        "break",
+        {
+            "type": "title",
+            "color": {
+                "user": "1;32",
+                "at": "37",
+                "host": "1;32"
+            }
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "󰣇 distribution  ",
+            "keyColor": "1;33"
+        },
+        {
+            "type": "kernel",
+            "key": "󰌽 linux kernel   ",
+            "keyColor": "1;33"
+        },
+        {
+            "type": "uptime",
+            "key": "󰅐 uptime         ",
+            "keyColor": "1;33"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖 packages       ",
+            "keyColor": "1;33",
+            "disabled": []
+        },
+        {
+            "type": "shell",
+            "key": "󰞷 unix shell      ",
+            "keyColor": "1;33"
+        },
+        {
+            "type": "terminal",
+            "key": "󰞍 terminal        ",
+            "keyColor": "1;33"
+        },
+        {
+            "type": "wm",
+            "format": "{} ({3})",
+            "key": "󱂬 window manager  ",
+            "keyColor": "1;33"
+        },
+        "break",
+        {
+            "type": "cpu",
+            "key": "󰍛 cpu             ",
+            "keyColor": "1;36",
+            "showPeCoreCount": true
+        },
+        {
+            "type": "gpu",
+            "key": "󰢮 gpu             ",
+            "keyColor": "1;36"
+        },
+        {
+            "type": "memory",
+            "key": "󰍛 memory          ",
+            "keyColor": "1;36"
+        },
+        {
+            "type": "disk",
+            "key": "󰋊 disk (/)        ",
+            "keyColor": "1;36",
+            "folders": "/"
+        },
+        "break",
+        {
+            "type": "localip",
+            "key": "󰩟 local ip        ",
+            "keyColor": "1;35"
+        },
+        {
+            "type": "publicip",
+            "key": "󰩠 public ip       ",
+            "keyColor": "1;35"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        },
+        "break",
+        "break"
+    ]
+}
