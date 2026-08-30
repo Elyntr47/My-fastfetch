@@ -22,5 +22,9 @@ mkdir -p ~/.config/fastfetch
 cp my-fastfetch.json ~/.config/fastfetch/config.jsonc
 fastfetch
 
+```bash
+# Clone the repository
+git clone [https://github.com/Elyntr47/My-fastfetch.git](https://github.com/Elyntr47/My-fastfetch.git)
+
 
 
