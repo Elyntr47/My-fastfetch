@@ -12,6 +12,10 @@ A clean, modern, and vibrant Fastfetch configuration tailored for CachyOS and KD
 
 ## Installation
 
+```bash
+# Clone the repository
+git clone [https://github.com/Elyntr47/My-fastfetch.git](https://github.com/Elyntr47/My-fastfetch.git)
+
 1. Clone or download `my-fastfetch.json` from this repository.
 2. Copy the file to your local Fastfetch configuration directory as `config.jsonc`:
 
@@ -22,9 +26,7 @@ mkdir -p ~/.config/fastfetch
 cp my-fastfetch.json ~/.config/fastfetch/config.jsonc
 fastfetch
 
-```bash
-# Clone the repository
-git clone [https://github.com/Elyntr47/My-fastfetch.git](https://github.com/Elyntr47/My-fastfetch.git)
+
 
 
 
