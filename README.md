@@ -16,14 +16,16 @@ Run the following commands in your terminal to clone the repository and apply th
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Elyntr47/My-fastfetch.git] https://github.com/Elyntr47/My-fastfetch.git
+git clone https://github.com/Elyntr47/My-fastfetch.git
+
+# Enter the repository directory
+cd My-fastfetch
 
 # Create the fastfetch config directory if it doesn't exist
 mkdir -p ~/.config/fastfetch
 
 # Copy the configuration file
-cp My-fastfetch/my-fastfetch.json ~/.config/fastfetch/config.jsonc
+cp my-fastfetch.json ~/.config/fastfetch/config.jsonc
 
 # Run fastfetch
 fastfetch
-
