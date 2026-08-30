@@ -20,6 +20,7 @@ A clean, modern, and vibrant Fastfetch configuration tailored for CachyOS and KD
 ```bash
 mkdir -p ~/.config/fastfetch
 cp my-fastfetch.json ~/.config/fastfetch/config.jsonc
+fastfetch
 
 
 
