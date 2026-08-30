@@ -16,7 +16,7 @@ Run the following commands in your terminal to clone the repository and apply th
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Elyntr47/My-fastfetch.git](https://github.com/Elyntr47/My-fastfetch.git)
+git clone [https://github.com/Elyntr47/My-fastfetch.git] https://github.com/Elyntr47/My-fastfetch.git
 
 # Create the fastfetch config directory if it doesn't exist
 mkdir -p ~/.config/fastfetch
